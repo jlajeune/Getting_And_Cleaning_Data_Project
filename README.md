@@ -15,7 +15,7 @@ Project for Coursera Course - Getting and Cleaning Data
                       The script assumes that the UCI HAR Dataset folder is in the
                       working directory.
 
-Dataset:              http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+Dataset:              http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 
 Written:             JAL, 2/22/2015
 
