@@ -1,4 +1,18 @@
-Codebook
+#Getting And Cleaning Data Project Codebook
+##UCI Human Activity Recognition Dataset
+
+
+###Overview
+
+The data described in this codebook was originally obtained from a study at UCI looking at the recognition of human activity using Samsung smartphones. The experiment was performed with 30 volunteers and data was recorded from accelerometers and gyroscopes in the smartphones. Recorded data from the accelerometers and gyroscopes were normalized to a range of -1 to 1. This data can be found here:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+
+The script "run_analysis.R" pulls together this data into a tidy data package. Parameters from the initial package are filtered out and the training & test data sets are pulled together. For a full description of the analysis, please refer to the "Readme.md" file. The contents of the resulting dataset can be seen below. Note that the output of the "run_analysis" script, "step5.txt", contains the average of each of the parameters below, grouped by activity and subject id.
+
+<sub><sub> UCI Citation: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.</sub> </sub>
+
+###Data Dictionary
 
 ```
 Parameter Name:	activity
