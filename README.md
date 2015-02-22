@@ -8,7 +8,8 @@ Project for Coursera Course - Getting and Cleaning Data
                       This script also joins the activity ID to the activity label for each row of
                       data using the sqldf library. After tidying this data set, the script then 
                       averages each column but grouped by activity and subject ID. These averaged 
-                      datasets are then exported to a TXT file.
+                      datasets are then exported to a TXT file in the current working directory and
+                      is titled "step5.txt".
 
  Use:                 There are no input arguments to the "run_analysis" function.
                       The script assumes that the UCI HAR Dataset folder is in the
